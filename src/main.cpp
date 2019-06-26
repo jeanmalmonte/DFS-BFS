@@ -74,6 +74,7 @@ int main()
 				break;
 			case '6':
 				//Refresh graph
+				//TO-DO: Delete pointer prior to constructing new object
 				graph = new Graph();
 				cout << "Graph refreshed.\n";
 				break;
